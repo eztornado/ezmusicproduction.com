@@ -15,7 +15,6 @@
     "download": "Descargar",
     "github": "GitHub",
     "menu": "Menú",
-    "video": "Ver el vídeo",
     "featured": "destacado",
     "jumpTo": "Ir a:",
     "language": "Idioma",
@@ -102,7 +101,7 @@
       "note": "HUECO: enlaza aquí la última release descargable (DMG/ZIP). Ahora mismo el botón apunta al repositorio.",
       "ctaDownload": "Descargar para macOS",
       "ctaSource": "Código fuente",
-      "ctaBack": "Volver al vídeo de presentación"
+      "ctaBack": "Volver arriba"
     }
   },
   "features": {

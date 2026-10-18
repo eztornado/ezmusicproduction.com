@@ -15,7 +15,6 @@
     "download": "ダウンロード",
     "github": "GitHub",
     "menu": "メニュー",
-    "video": "動画を見る",
     "featured": "注目",
     "jumpTo": "移動:",
     "language": "言語",
@@ -102,7 +101,7 @@
       "note": "プレースホルダー: ここを最新リリース（DMG/ZIP）へのリンクにしてください。現在ボタンはリポジトリを指しています。",
       "ctaDownload": "macOS版をダウンロード",
       "ctaSource": "ソースコード",
-      "ctaBack": "紹介動画に戻る"
+      "ctaBack": "トップへ戻る"
     }
   },
   "features": {

@@ -18,6 +18,7 @@ import {
 import {
   IconAdjustments,
   IconAlertCircle,
+  IconArrowUp,
   IconBrandAppleFilled,
   IconBrandGithub,
   IconCode,
@@ -26,7 +27,6 @@ import {
   IconFileMusic,
   IconHeart,
   IconMusic,
-  IconPlayerPlayFilled,
   IconWaveSine,
 } from '@tabler/icons-react';
 
@@ -102,7 +102,7 @@ export default function App() {
                     bg="var(--ez-surface)"
                     style={{ borderColor: 'var(--ez-border)' }}
                   >
-                    <ThemeIcon size={44} radius="md" color="amber" variant="light" mb="md">
+                    <ThemeIcon size={44} radius="md" color="red" variant="light" mb="md">
                       <Icon size={22} />
                     </ThemeIcon>
                     <Text fw={700} mb={6}>
@@ -176,7 +176,7 @@ export default function App() {
                     bg="var(--ez-surface)"
                     style={{ borderColor: 'var(--ez-border)', textDecoration: 'none' }}
                   >
-                    <ThemeIcon size={38} radius="md" color="amber" variant="light" mb="sm">
+                    <ThemeIcon size={38} radius="md" color="red" variant="light" mb="sm">
                       <Icon size={20} />
                     </ThemeIcon>
                     <Text fw={700} c="gray.1">
@@ -242,7 +242,7 @@ export default function App() {
                       style={{ borderColor: 'var(--ez-border)' }}
                     >
                       <Group align="flex-start" wrap="nowrap">
-                        <ThemeIcon size={40} radius="md" color="amber" variant="light">
+                        <ThemeIcon size={40} radius="md" color="red" variant="light">
                           <IconCode size={20} />
                         </ThemeIcon>
                         <Box>
@@ -275,7 +275,7 @@ export default function App() {
         </Box>
 
         {/* ------------------------------------------------------------- FAQ --- */}
-        <Box component="section" py={{ base: 64, md: 96 }} bg="#151210">
+        <Box component="section" py={{ base: 64, md: 96 }} bg="#0f0f11">
           <Container size="md">
             <SectionHeading
               align="center"
@@ -315,9 +315,9 @@ export default function App() {
               padding="2.5rem"
               withBorder
               style={{
-                borderColor: 'rgba(252,166,26,0.28)',
+                borderColor: 'rgba(255,45,32,0.3)',
                 background:
-                  'radial-gradient(120% 140% at 0% 0%, rgba(252,166,26,0.16), transparent 60%), #171310',
+                  'radial-gradient(120% 140% at 0% 0%, rgba(255,45,32,0.16), transparent 60%), #120607',
               }}
             >
               <Group justify="space-between" align="center" gap={40} wrap="wrap">
@@ -326,7 +326,7 @@ export default function App() {
                     size="xs"
                     fw={700}
                     tt="uppercase"
-                    style={{ letterSpacing: '0.14em', color: 'var(--ez-amber)' }}
+                    style={{ letterSpacing: '0.14em', color: 'var(--ez-accent)' }}
                   >
                     {t('sections.download.eyebrow')}
                   </Text>
@@ -353,8 +353,8 @@ export default function App() {
                 <Stack gap="sm" w={{ base: '100%', sm: 320 }}>
                   <Button
                     size="lg"
-                    color="amber"
-                    c="#12100e"
+                    color="red"
+                    c="#0b0b0b"
                     radius="md"
                     leftSection={<IconBrandAppleFilled size={18} />}
                     rightSection={<IconDownload size={18} />}
@@ -383,7 +383,7 @@ export default function App() {
                     size="md"
                     variant="subtle"
                     radius="md"
-                    leftSection={<IconPlayerPlayFilled size={15} />}
+                    leftSection={<IconArrowUp size={15} />}
                     component="a"
                     href="#top"
                     fullWidth

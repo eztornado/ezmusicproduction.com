@@ -1,6 +1,6 @@
 import { Trans, useTranslation } from 'react-i18next';
 import { Badge, Box, Button, Container, Group, Stack, Text, Title } from '@mantine/core';
-import { IconArrowRight, IconBrandGithub, IconPlayerPlayFilled } from '@tabler/icons-react';
+import { IconArrowRight, IconBrandGithub } from '@tabler/icons-react';
 import { heroStats, site } from '../data/site';
 
 /**
@@ -39,7 +39,7 @@ export function Hero() {
       <Container size="lg" className="ez-hero__content">
         <Stack gap="xl" maw={820} py={120}>
           <Group gap="xs">
-            <Badge color="amber" variant="light" size="lg" radius="sm">
+            <Badge color="red" variant="light" size="lg" radius="sm">
               {t('site.license')}
             </Badge>
             <Badge color="gray" variant="outline" size="lg" radius="sm">
@@ -64,7 +64,7 @@ export function Hero() {
                       span
                       inherit
                       variant="gradient"
-                      gradient={{ from: '#ffd79c', to: '#fc7a1a', deg: 45 }}
+                      gradient={{ from: '#ff8a80', to: '#e01b10', deg: 45 }}
                     />
                   ),
                 }}
@@ -83,8 +83,8 @@ export function Hero() {
           <Group gap="md">
             <Button
               size="lg"
-              color="amber"
-              c="#12100e"
+              color="red"
+              c="#0b0b0b"
               radius="md"
               rightSection={<IconArrowRight size={18} />}
               component="a"
@@ -103,18 +103,6 @@ export function Hero() {
               rel="noreferrer"
             >
               {t('hero.ctaGithub')}
-            </Button>
-            <Button
-              size="lg"
-              variant="subtle"
-              radius="md"
-              leftSection={<IconPlayerPlayFilled size={16} />}
-              component="a"
-              href={HERO_VIDEO}
-              target="_blank"
-              rel="noreferrer"
-            >
-              {t('common.video')}
             </Button>
           </Group>
 

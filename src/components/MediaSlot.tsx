@@ -50,7 +50,7 @@ export function MediaSlot({ src, alt, hint, ratio = '16 / 10', video = false, cl
 
       {missing && (
         <div className="ez-slot__placeholder">
-          <ThemeIcon size={46} radius="xl" variant="light" color="amber">
+          <ThemeIcon size={46} radius="xl" variant="light" color="red">
             {video ? <IconVideo size={24} /> : <IconPhoto size={24} />}
           </ThemeIcon>
           <Stack gap={6} align="center">

@@ -29,7 +29,7 @@ function Logo() {
         <span style={{ height: '45%' }} />
       </div>
       <Text fw={800} size="md" style={{ letterSpacing: '-0.01em' }}>
-        EZ<span style={{ color: 'var(--ez-amber)' }}>Music</span>Production
+        EZ<span style={{ color: 'var(--ez-accent)' }}>Music</span>Production
       </Text>
     </Group>
   );
@@ -82,8 +82,8 @@ export function Navbar() {
               href={site.downloadUrl}
               target="_blank"
               rel="noreferrer"
-              color="amber"
-              c="#12100e"
+              color="red"
+              c="#0b0b0b"
               visibleFrom="sm"
             >
               {t('common.download')}
@@ -122,7 +122,7 @@ export function Navbar() {
             target="_blank"
             rel="noreferrer"
             variant="light"
-            color="amber"
+            color="red"
             leftSection={<IconBrandGithub size={16} />}
           >
             {t('hero.ctaGithub')}
@@ -132,8 +132,8 @@ export function Navbar() {
             href={site.downloadUrl}
             target="_blank"
             rel="noreferrer"
-            color="amber"
-            c="#12100e"
+            color="red"
+            c="#0b0b0b"
             leftSection={<IconDownload size={16} />}
             onClick={close}
           >

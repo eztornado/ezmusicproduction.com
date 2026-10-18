@@ -1,26 +1,25 @@
 import { createTheme, type MantineColorsTuple } from '@mantine/core';
 
 /**
- * Tema oscuro cálido, en la línea visual del propio DAW:
- * fondos marrón-carbón y un acento ámbar.
+ * Tema rojo sobre negro: fondos neutros muy oscuros y un acento rojo vivo.
  */
-const amber: MantineColorsTuple = [
-  '#fff4e2',
-  '#ffe8c8',
-  '#ffd79c',
-  '#ffc46a',
-  '#fdb543',
-  '#fcab2b',
-  '#fca61a',
-  '#e09109',
-  '#c88000',
-  '#ae6d00',
+const red: MantineColorsTuple = [
+  '#ffe9e9',
+  '#ffd1d1',
+  '#ffb0b0',
+  '#ff8585',
+  '#ff5252',
+  '#ff2d20',
+  '#e01b10',
+  '#b8150c',
+  '#8f1009',
+  '#660a06',
 ];
 
 export const theme = createTheme({
-  primaryColor: 'amber',
+  primaryColor: 'red',
   primaryShade: { light: 6, dark: 5 },
-  colors: { amber },
+  colors: { red },
   fontFamily:
     '"Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
   fontFamilyMonospace: '"SF Mono", ui-monospace, SFMono-Regular, Menlo, monospace',

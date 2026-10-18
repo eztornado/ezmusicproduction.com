@@ -29,8 +29,8 @@ export function LanguageSwitcher({ variant = 'button', onSelect }: Props) {
             size="xs"
             radius="xl"
             variant={l.code === current ? 'filled' : 'default'}
-            color={l.code === current ? 'amber' : undefined}
-            c={l.code === current ? '#12100e' : undefined}
+            color={l.code === current ? 'red' : undefined}
+            c={l.code === current ? '#0b0b0b' : undefined}
             onClick={() => change(l.code)}
           >
             {l.short}
@@ -48,7 +48,7 @@ export function LanguageSwitcher({ variant = 'button', onSelect }: Props) {
             aria-label={t('common.language')}
             style={{ display: 'inline-flex', alignItems: 'center', gap: 6, padding: '8px 4px' }}
           >
-            <IconLanguage size={18} color="var(--ez-amber)" />
+            <IconLanguage size={18} color="var(--ez-accent)" />
             <Text size="sm" fw={600} c="gray.2">
               {active.short}
             </Text>

@@ -16,7 +16,7 @@ export function Footer() {
         <SimpleGrid cols={{ base: 1, sm: 3 }} spacing="xl">
           <Stack gap="xs">
             <Text fw={800} size="lg">
-              EZ<span style={{ color: 'var(--ez-amber)' }}>Music</span>Production
+              EZ<span style={{ color: 'var(--ez-accent)' }}>Music</span>Production
             </Text>
             <Text size="sm" c="dimmed" maw={320} lh={1.6}>
               {t('footer.description')}
@@ -67,7 +67,7 @@ export function Footer() {
             {t('footer.copyright', { year, codename: site.codename })}
           </Text>
           <Group gap={6}>
-            <IconBrandGithub size={16} color="var(--ez-amber)" />
+            <IconBrandGithub size={16} color="var(--ez-accent)" />
             <Text size="xs" c="dimmed">
               {t('footer.madeWith')}
             </Text>

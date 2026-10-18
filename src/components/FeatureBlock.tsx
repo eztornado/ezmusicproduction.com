@@ -21,7 +21,7 @@ export function FeatureBlock({ meta, flip = false }: Props) {
         <Grid.Col span={{ base: 12, md: 6 }} order={{ base: 1, md: flip ? 2 : 1 }}>
           <Stack gap="md">
             <Group gap="xs">
-              <Badge color="amber" variant="light" radius="sm">
+              <Badge color="red" variant="light" radius="sm">
                 {t(`${base}.eyebrow`)}
               </Badge>
               {meta.highlighted && (
@@ -47,7 +47,7 @@ export function FeatureBlock({ meta, flip = false }: Props) {
               size="sm"
               c="gray.3"
               icon={
-                <ThemeIcon color="amber" size={20} radius="xl" variant="light">
+                <ThemeIcon color="red" size={20} radius="xl" variant="light">
                   <IconCheck size={13} />
                 </ThemeIcon>
               }

@@ -15,7 +15,6 @@
     "download": "Download",
     "github": "GitHub",
     "menu": "Menu",
-    "video": "Watch the video",
     "featured": "featured",
     "jumpTo": "Jump to:",
     "language": "Language",
@@ -102,7 +101,7 @@
       "note": "PLACEHOLDER: point this to the latest downloadable release (DMG/ZIP). Right now the button links to the repository.",
       "ctaDownload": "Download for macOS",
       "ctaSource": "Source code",
-      "ctaBack": "Back to the intro video"
+      "ctaBack": "Back to top"
     }
   },
   "features": {

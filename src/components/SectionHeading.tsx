@@ -16,7 +16,7 @@ export function SectionHeading({ eyebrow, title, intro, align = 'left' }: Props)
       align={align === 'center' ? 'center' : 'flex-start'}
       ta={align === 'center' ? 'center' : 'left'}
     >
-      <Badge color="amber" variant="light" radius="sm" size="lg">
+      <Badge color="red" variant="light" radius="sm" size="lg">
         {eyebrow}
       </Badge>
       <Title order={2} style={{ fontSize: 'clamp(1.75rem, 3.4vw, 2.6rem)', letterSpacing: '-0.02em' }}>
@@ -33,7 +33,7 @@ export function SectionHeading({ eyebrow, title, intro, align = 'left' }: Props)
         mt={4}
         style={{
           borderRadius: 999,
-          background: 'linear-gradient(90deg, var(--ez-amber), transparent)',
+          background: 'linear-gradient(90deg, var(--ez-accent), transparent)',
         }}
       />
     </Stack>

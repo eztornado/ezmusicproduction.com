@@ -6,10 +6,12 @@ instrumentos propios y librería de sonidos incluida.
 
 SPA hecha con **React 19 + TypeScript + Vite + Mantine 8**, con contenido
 multilingüe (ES / EN / JA) y lista para desplegar en **Coolify**.
+Tema **rojo sobre negro**.
 
 ## Contenido del sitio
 
-- **Hero** a pantalla completa con vídeo de fondo (con hueco y degradado de reserva).
+- **Hero** a pantalla completa con vídeo de fondo en bucle (ya incluido un clip
+  de ejemplo; se sustituye dejando otro `hero.mp4`) y fondo animado de reserva.
 - **Qué es** — tres ideas que resumen el producto.
 - **Funciones propias**, cada una con su hueco de imagen:
   - Librería de Sonidos
@@ -81,6 +83,9 @@ ruta que falta. No hace falta tocar código para añadir material:
 Rutas concretas de cada hueco: `src/data/site.ts` (`FEATURES`, campo `image`) y
 `HERO_VIDEO` en `src/components/Hero.tsx`.
 
+El hero **ya trae un vídeo de ejemplo** (`public/media/hero.mp4`, 8 s en bucle);
+las capturas de funciones siguen pendientes.
+
 ## Despliegue en Coolify
 
 Incluye todo lo necesario para producción: **Dockerfile** multi-etapa
@@ -135,13 +140,13 @@ docker compose up --build
 src/
 ├── App.tsx                 # composición de las secciones (usa t())
 ├── main.tsx                # arranque + i18n + MantineProvider
-├── theme.ts                # tema oscuro cálido (acento ámbar)
+├── theme.ts                # tema rojo sobre negro
 ├── styles/global.css       # hero, navbar, huecos, animaciones
 ├── i18n/                   # i18next + locales es/en/ja
 ├── data/site.ts            # configuración estática (enlaces, medios, anclas)
 └── components/
     ├── Navbar.tsx          # barra fija + selector de idioma + menú móvil
-    ├── Hero.tsx            # hero con vídeo de fondo
+    ├── Hero.tsx            # hero con vídeo de fondo en bucle
     ├── LanguageSwitcher.tsx# selector ES / EN / JA
     ├── SectionHeading.tsx  # encabezado de sección reutilizable
     ├── FeatureBlock.tsx    # bloque de función (texto + hueco de imagen)
