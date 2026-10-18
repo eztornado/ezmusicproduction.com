@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "title": "EZMusicProduction — open-source DAW for macOS",
+    "description": "EZMusicProduction — an open-source digital audio workstation (DAW) for macOS. Sound library, EZInstruments, EZSynth, EZDrums, EZOrquestra, Piano Roll and Cubase project import.",
+    "ogTitle": "EZMusicProduction — open-source DAW for macOS",
+    "ogDescription": "Complete music production in a single window. Sound library, EZ instruments, a full Piano Roll and direct import of Cubase projects."
+  },
+  "site": {
+    "tagline": "Complete music production, in a single window.",
+    "license": "Open source",
+    "platform": "macOS 12+ · Apple Silicon and Intel",
+    "version": "0.1 · Phase 4"
+  },
+  "common": {
+    "download": "Download",
+    "github": "GitHub",
+    "menu": "Menu",
+    "video": "Watch the video",
+    "featured": "featured",
+    "jumpTo": "Jump to:",
+    "language": "Language",
+    "imagePlaceholder": "Placeholder for an image",
+    "videoPlaceholder": "Placeholder for a video",
+    "placeholderHelp": "drop the file in"
+  },
+  "nav": {
+    "whatIs": "Overview",
+    "features": "Features",
+    "instruments": "EZ Instruments",
+    "pianoRoll": "Piano Roll",
+    "cubase": "Cubase",
+    "architecture": "Architecture",
+    "download": "Download"
+  },
+  "hero": {
+    "title": "Your music production studio, <hl>built in the open</hl>.",
+    "subtitle": "<strong>EZMusicProduction</strong> is an open-source DAW for macOS. <em>{{tagline}}</em> Its own instruments, a sound library with project-tempo-matched preview and a full Piano Roll, all included.",
+    "ctaFeatures": "See the features",
+    "ctaGithub": "Code on GitHub",
+    "stats": {
+      "sounds": "indexed free sounds",
+      "instruments": "built-in EZ instruments",
+      "gm": "General MIDI programs",
+      "open": "open source"
+    }
+  },
+  "pillars": {
+    "items": [
+      {
+        "title": "Classic timeline, fast flow",
+        "text": "A linear multitrack timeline, per-channel mixer with inserts and sends, parameter automation… and, at the same time, drag & drop as the very first action and a library with preview synced to the project."
+      },
+      {
+        "title": "Its own instruments, not a plugin catalogue",
+        "text": "EZInstruments, EZSynth, EZDrums and EZOrquestra live inside the app: no third-party windows, no extra licences, and a project that is ready to play from the first minute."
+      },
+      {
+        "title": "Native on macOS and open source",
+        "text": "Flutter UI, a C++20/23 audio engine with JUCE and an FFI bridge built on snapshots. No disk I/O on the audio thread and no black boxes: the code is yours."
+      }
+    ]
+  },
+  "sections": {
+    "whatIs": {
+      "eyebrow": "What is EZMusicProduction",
+      "title": "A complete linear DAW, without the strings",
+      "intro": "Record, edit, mix and automate with studio-grade depth, but with the immediacy of opening the app and starting to play. Everything happens in a single window: multitrack timeline, lower zone with editor and mixer, and instruments that already ship with it."
+    },
+    "features": {
+      "eyebrow": "Signature features",
+      "title": "What makes EZMusicProduction special",
+      "intro": "Every piece is designed around a real production flow: find the sound, play it, edit the notes and carry the project to the end without leaving the app."
+    },
+    "instruments": {
+      "eyebrow": "EZ Instruments",
+      "title": "Four instruments of its own, inside the app",
+      "intro": "No external libraries or separate installers: EZInstruments, EZSynth, EZDrums and EZOrquestra open right from the track and store their state inside the project."
+    },
+    "pianoRoll": {
+      "eyebrow": "Note editor",
+      "title": "A Piano Roll with studio-grade depth",
+      "intro": "Non-destructive quantization with iQ is the difference: try grids, swing and catch range without fear, because the original positions stay there until you decide to commit them."
+    },
+    "cubase": {
+      "eyebrow": "Compatibility",
+      "title": "Open your Cubase projects",
+      "intro": "Import your Cubase projects and don't start from scratch: your tracks, MIDI notes and audio events come along with the project, and you can keep working here in the app's own save format."
+    },
+    "architecture": {
+      "eyebrow": "Under the hood",
+      "title": "An architecture built to stay out of the audio's way",
+      "intro": "The interface shows live data without ever getting close to the audio thread. Between the UI and the engine there are only commands, snapshots and streams."
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Before you download it"
+    },
+    "download": {
+      "eyebrow": "Download",
+      "title": "Start producing today",
+      "text": "Download the app for macOS or build it from source. The project is under active development and every new feature lands in the repository.",
+      "note": "PLACEHOLDER: point this to the latest downloadable release (DMG/ZIP). Right now the button links to the repository.",
+      "ctaDownload": "Download for macOS",
+      "ctaSource": "Source code",
+      "ctaBack": "Back to the intro video"
+    }
+  },
+  "features": {
+    "libreria": {
+      "eyebrow": "Sample & loop browser",
+      "title": "Sound Library",
+      "description": "A browser with over 21,000 free sounds —loops, one-shot samples, orchestral, percussion, synth, vocals and Foley— indexed and ready to drag onto the timeline. The preview is the signature touch: the loop plays stretched to the project tempo and transposed to its key, and starts right on the playhead's beat.",
+      "bullets": [
+        "21,000+ sounds with visible licence and authorship (CC, public domain…)",
+        "Tempo-matched preview, transposed to the project key",
+        "Drums and percussion with one-shot samples, ready to build your own patterns",
+        "Drag & drop straight onto the timeline: creates a track or inserts a clip where you drop",
+        "Filters by category, tempo, key, instrument and genre"
+      ]
+    },
+    "ezinstruments": {
+      "eyebrow": "Instrument · General MIDI",
+      "genre": "General MIDI",
+      "title": "EZInstruments",
+      "description": "The General MIDI instrument collection built into the app: 128 melodic programs plus the percussion kit in a single processor, with instant sound for sketching any idea. Reverb and chorus are deliberately switched off: space and character come from the track's FX chain, not the instrument.",
+      "bullets": [
+        "Complete GM catalogue: 128 melodic programs + percussion kit",
+        "Embedded FluidSynth engine (LGPL 2.1+) with our own glue",
+        "No internal reverb/chorus: the colour belongs to the track's FX chain",
+        "Great for sketching: pick it, play it and keep producing"
+      ]
+    },
+    "ezsynth": {
+      "eyebrow": "Instrument · Synthesizer",
+      "genre": "Synthesizer",
+      "title": "EZSynth",
+      "description": "A modern subtractive synth with the piano roll of its own clip built in. The engine offers three oscillators with unison, a sub oscillator and a noise generator, a multimode ladder filter with its own envelope, two LFOs, glide and velocity response. A preset bank covers the fast path; LINES is the deep one.",
+      "bullets": [
+        "Three oscillators + unison + sub + noise",
+        "Multimode ladder filter with a dedicated envelope",
+        "Two LFOs, glide and velocity sensitivity",
+        "A preset bank to get going without friction",
+        "LINES: pitch-distortion areas drawn over the roll with a genuinely polyphonic effect (each note of a chord bends on its own)"
+      ]
+    },
+    "ezdrums": {
+      "eyebrow": "Instrument · Drums",
+      "genre": "Drums",
+      "title": "EZDrums",
+      "description": "A drum machine with synthesized 808/909-style kits —zero assets, zero downloads— and a bank of patterns across styles. Everything plays locked to the project tempo and time signature in a loop, and best of all: with the track armed, the pattern is recorded as real MIDI into a clip, as if a drummer had performed it. Then you edit it in the usual piano roll.",
+      "bullets": [
+        "Synthesized 808/909 kits, no external samples",
+        "A bank of ready-to-use patterns by style",
+        "Loop locked to the project tempo and time signature",
+        "Generates MIDI: records the pattern into a real, editable clip"
+      ]
+    },
+    "ezorquestra": {
+      "eyebrow": "Instrument · Orchestra",
+      "genre": "Orchestra",
+      "title": "EZOrquestra",
+      "description": "Our own orchestral sampler implementation. It plays freely-licensed sample libraries following the Alpine Project layout: per-note WAV files with the note, articulation and dynamics encoded in the filename. JSON programs with a per-sample root note, velocity layers and round-robin groups deliver the realism you expect from a string section.",
+      "bullets": [
+        "Strings, brass and woodwinds with articulations and dynamics",
+        "Format compatible with the Alpine Project (per-note WAV files)",
+        "JSON programs with root note, velocity layers and round-robin",
+        "Pitch detector with label verification for preparing libraries"
+      ]
+    },
+    "pianoRoll": {
+      "eyebrow": "Editor · Lower zone",
+      "title": "Piano Roll",
+      "description": "The note editor: a full canvas to write, move and shape your music in every detail. The key piece here is non-destructive quantization: original positions are never lost until you decide so, which means you can try a different preset and go back without undoing anything. Every gesture is an action and every action is an undo step.",
+      "bullets": [
+        "Non-destructive quantization: factory presets 1/4 … 1/32 with triplets and dotted values",
+        "Q / iQ mode: apply fully or step forward with Iterative Strength",
+        "Swing (straight grids only), Catch Range, Max Move and Non-Grid Positions",
+        "Ghost display of the original position and Freeze Quantize when you want to commit",
+        "Velocity and CC lanes (modwheel, volume, expression, sustain)",
+        "Smart vertical auto-scroll, key preview on click and numeric editing in the info line"
+      ]
+    },
+    "cubase": {
+      "eyebrow": "Import · .cpr",
+      "title": "Opening Cubase projects",
+      "description": "Open your Cubase projects straight from the file picker: the .cpr reader is written in pure Dart and recreates the project in the engine. It's read-only —we never write back to the original file, saving stays .ezmpp— but it brings along everything you need to pick up where you left off.",
+      "bullets": [
+        "Full project structure: tracks, tempo and time signature",
+        "MIDI notes verified 1:1 against SMFs exported by Cubase itself",
+        "Audio events with position, trim, gain and source file",
+        "Instruments and effects restored with their state",
+        "Read-only: your original .cpr is never modified"
+      ]
+    }
+  },
+  "architecture": {
+    "items": [
+      {
+        "step": "UI",
+        "title": "Flutter",
+        "text": "The skin, never the heart of the audio. Timeline, mixer, inspector and dialogs; it consumes engine streams and never blocks the audio thread."
+      },
+      {
+        "step": "Bridge",
+        "title": "FFI over snapshots",
+        "text": "Commands, snapshots and streams between the UI and the engine. No per-audio-block calls."
+      },
+      {
+        "step": "Core",
+        "title": "C++20/23 + JUCE",
+        "text": "Project model, mixing, offline render and undo/redo live in the engine. Audio sources are decoded into memory so the disk is never touched during playback."
+      }
+    ]
+  },
+  "faq": {
+    "items": [
+      {
+        "q": "Which platforms does it run on?",
+        "a": "macOS 12 or later, on both Apple Silicon and Intel. Windows is planned for a later release."
+      },
+      {
+        "q": "Is it free? Is it open source?",
+        "a": "The project is open source. The engine uses JUCE and FluidSynth (LGPL 2.1+) linked dynamically, and the final licence for the whole is being evaluated between AGPLv3 and a commercial licence."
+      },
+      {
+        "q": "Can I use third-party plugins?",
+        "a": "Yes. The initial release hosts AU and VST3 on macOS; CLAP is planned for later. On top of that, the EZ instruments are included out of the box."
+      },
+      {
+        "q": "Can I save back into Cubase?",
+        "a": "No. .cpr import is read-only by design: we open your projects, we never modify them. The app's own save format is .ezmpp."
+      },
+      {
+        "q": "Can I contribute sounds to the library?",
+        "a": "Yes. The library is indexed from local folders and shows the licence and authorship of every sound, so it's easy to bring in free material."
+      }
+    ]
+  },
+  "footer": {
+    "description": "Complete music production in a single window. An open-source DAW for macOS, with its own instruments and a sound library included.",
+    "sections": "Sections",
+    "project": "Project",
+    "repo": "Repository on GitHub",
+    "license": "Licence: AGPLv3 / commercial (under evaluation)",
+    "engine": "Engine: JUCE + FluidSynth (LGPL 2.1+)",
+    "version": "Version {{version}}",
+    "copyright": "© {{year}} EZMusicProduction · Codename “{{codename}}”.",
+    "madeWith": "Built with React + Mantine"
+  }
+}

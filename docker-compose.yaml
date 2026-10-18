@@ -1,0 +1,21 @@
+# Docker Compose para Coolify (recurso de tipo "Docker Compose").
+# Coolify detecta el puerto 80 expuesto y publica el servicio a través de su proxy.
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    expose:
+      - '80'
+    # Para probar en local sin el proxy de Coolify, descomenta:
+    # ports:
+    #   - '8080:80'
+    environment:
+      - TZ=Europe/Madrid
+    healthcheck:
+      test: ['CMD', 'wget', '-qO-', 'http://127.0.0.1/healthz']
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 5s

@@ -1,0 +1,15 @@
+node_modules
+dist
+dist-ssr
+.git
+.gitignore
+.github
+.vite
+*.tsbuildinfo
+*.log
+.DS_Store
+Dockerfile
+docker-compose.yaml
+.dockerignore
+README.md
+**/*.md
