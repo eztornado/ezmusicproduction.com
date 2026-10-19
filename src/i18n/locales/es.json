@@ -1,249 +1,249 @@
 {
   "meta": {
-    "title": "EZMusicProduction — DAW open source para macOS",
-    "description": "EZMusicProduction — estación de trabajo de audio (DAW) open source para macOS. Librería de sonidos, EZInstruments, EZSynth, EZDrums, EZOrquestra, Piano Roll y apertura de proyectos de Cubase.",
-    "ogTitle": "EZMusicProduction — DAW open source para macOS",
-    "ogDescription": "Producción musical completa en una sola ventana. Librería de sonidos, instrumentos EZ, un Piano Roll completo y apertura directa de proyectos de Cubase."
+    "title": "EZMusicProduction — Tu programa de música para Mac",
+    "description": "Crea, graba y mezcla tu música en un solo programa para Mac. Instrumentos incluidos, más de 21.000 sonidos gratis y un editor de notas completo. Descárgalo gratis.",
+    "ogTitle": "EZMusicProduction — Tu programa de música para Mac",
+    "ogDescription": "Instrumentos, más de 21.000 sonidos gratis y un editor de notas completo en un solo programa. Gratis y de código abierto."
   },
   "site": {
-    "tagline": "Producción musical completa, en una sola ventana.",
-    "license": "Open source",
-    "platform": "macOS 12+ · Apple Silicon e Intel",
-    "version": "0.1 · Fase 4"
+    "tagline": "Todo listo para crear, desde el primer minuto.",
+    "license": "Código abierto",
+    "platform": "Para Mac · Apple Silicon e Intel",
+    "version": "0.1"
   },
   "common": {
     "download": "Descargar",
     "github": "GitHub",
     "menu": "Menú",
-    "featured": "destacado",
-    "jumpTo": "Ir a:",
+    "featured": "Destacado",
+    "jumpTo": "Descubre:",
     "language": "Idioma",
-    "imagePlaceholder": "Espacio reservado para la imagen",
-    "videoPlaceholder": "Espacio reservado para el vídeo",
+    "imagePlaceholder": "Aquí va una captura del programa",
+    "videoPlaceholder": "Aquí va un vídeo",
     "placeholderHelp": "coloca el fichero en"
   },
   "nav": {
-    "whatIs": "Qué es",
+    "whatIs": "Descubre",
     "features": "Funciones",
-    "instruments": "Instrumentos EZ",
-    "pianoRoll": "Piano Roll",
+    "instruments": "Instrumentos",
+    "pianoRoll": "Editor",
     "cubase": "Cubase",
-    "architecture": "Arquitectura",
+    "architecture": "Ventajas",
     "download": "Descargar"
   },
   "hero": {
-    "title": "Tu estudio de producción musical, <hl>hecho en casa</hl>.",
-    "subtitle": "<strong>EZMusicProduction</strong> es un DAW de código abierto para macOS. <em>{{tagline}}</em> Instrumentos propios, librería de sonidos con la vista previa ajustada al tempo del proyecto y un Piano Roll completo, todo incluido.",
-    "ctaFeatures": "Ver las funciones",
-    "ctaGithub": "Código en GitHub",
+    "title": "Toda tu música, <hl>en un solo programa</hl>.",
+    "subtitle": "<strong>EZMusicProduction</strong> reúne instrumentos, más de 21.000 sonidos gratis y un editor de notas completo en un solo programa para Mac. <em>{{tagline}}</em>",
+    "ctaFeatures": "Descubre lo que hace",
+    "ctaGithub": "Ver en GitHub",
     "stats": {
-      "sounds": "sonidos libres indexados",
-      "instruments": "instrumentos EZ de serie",
-      "gm": "programas General MIDI",
-      "open": "open source"
+      "sounds": "sonidos y loops gratis",
+      "instruments": "instrumentos incluidos",
+      "gm": "tipos de instrumento",
+      "open": "código abierto"
     }
   },
   "pillars": {
     "items": [
       {
-        "title": "Timeline clásico, flujo rápido",
-        "text": "Timeline lineal multipista, mixer por canales con inserts y sends, automatización por parámetros… y, al mismo tiempo, drag & drop como primera acción y una librería con la vista previa sincronizada al proyecto."
+        "title": "Todo en un solo lugar",
+        "text": "Graba, edita y mezcla sin saltar entre aplicaciones. Los instrumentos, los sonidos y el editor ya vienen dentro: instalas y empiezas a crear."
       },
       {
-        "title": "Instrumentos propios, no un catálogo de plugins",
-        "text": "EZInstruments, EZSynth, EZDrums y EZOrquestra viven dentro del programa: sin ventanas ajenas, sin licencias de terceros y con el proyecto listo para sonar desde el primer minuto."
+        "title": "Sonidos para empezar ya",
+        "text": "Más de 21.000 sonidos gratis listos para usar. Escúchalos al tempo de tu canción y arrástralos a tu proyecto con un clic."
       },
       {
-        "title": "Nativo en macOS y open source",
-        "text": "UI en Flutter, motor de audio en C++20/23 con JUCE y puente FFI por snapshots. Sin I/O de disco en el hilo de audio y sin cajas negras: el código es tuyo."
+        "title": "Instrumentos de serie",
+        "text": "Piano, sinte, batería y orquesta incluidos y funcionando desde el primer minuto. Nada más que comprar para empezar a hacer música."
       }
     ]
   },
   "sections": {
     "whatIs": {
-      "eyebrow": "Qué es EZMusicProduction",
-      "title": "Un DAW lineal completo, sin ataduras",
-      "intro": "Grabar, editar, mezclar y automatizar con profundidad de estudio, pero con la inmediatez de abrir el programa y empezar a sonar. Todo ocurre en una única ventana: timeline multipista, lower zone con editor y mixer, e instrumentos que ya vienen dentro."
+      "eyebrow": "Qué es",
+      "title": "El programa que lo trae todo",
+      "intro": "Instala, abre y empieza. Sin buscar plugins, sin descargas aparte y sin suscripciones: todo lo que necesitas para hacer música ya está dentro."
     },
     "features": {
-      "eyebrow": "Funciones propias",
-      "title": "Lo que hace especial a EZMusicProduction",
-      "intro": "Cada pieza está pensada para el flujo de producción real: encontrar el sonido, tocar, editar las notas y llevar el proyecto hasta el final sin salir de la aplicación."
+      "eyebrow": "Funciones",
+      "title": "Todo lo que puedes hacer",
+      "intro": "Desde encontrar el sonido perfecto hasta dar los últimos toques a tu canción, sin salir del programa."
     },
     "instruments": {
-      "eyebrow": "Instrumentos EZ",
-      "title": "Cuatro instrumentos propios, dentro del programa",
-      "intro": "Nada de librerías externas ni instaladores aparte: EZInstruments, EZSynth, EZDrums y EZOrquestra se abren desde la propia pista y guardan su estado dentro del proyecto."
+      "eyebrow": "Instrumentos",
+      "title": "Cuatro instrumentos listos para tocar",
+      "intro": "Vienen incluidos y funcionan al instante. Elige uno y ponte a tocar: no hay nada que instalar ni configurar."
     },
     "pianoRoll": {
       "eyebrow": "Editor de notas",
-      "title": "Un Piano Roll con profundidad de estudio",
-      "intro": "La cuantización no destructiva con iQ es la diferencia: prueba rejillas, swing y catch range sin miedo, porque las posiciones originales siguen ahí hasta que decidas fijarlas."
+      "title": "Escribe tu música nota a nota",
+      "intro": "Un editor cómodo y preciso para componer melodías, arreglar acordes y corregir lo que no acaba de sonar. Prueba cambios sin miedo: siempre puedes volver atrás."
     },
     "cubase": {
       "eyebrow": "Compatibilidad",
-      "title": "Abre tus proyectos de Cubase",
-      "intro": "Importa tus proyectos de Cubase y no empieces de cero: tus pistas, tus notas MIDI y tus eventos de audio viajan con el proyecto, y puedes seguir trabajando aquí con el formato propio de guardado."
+      "title": "¿Ya trabajas en Cubase? Trae tus proyectos",
+      "intro": "Abre tus canciones de Cubase y sigue aquí con todo en su sitio. Tus archivos originales no se tocan: los abres, los escuchas y los guardas en el formato del programa."
     },
     "architecture": {
-      "eyebrow": "Bajo el capó",
-      "title": "Arquitectura pensada para no molestar al audio",
-      "intro": "La interfaz muestra datos en vivo sin acercarse al hilo de audio. Entre la UI y el motor sólo hay comandos, snapshots y streams."
+      "eyebrow": "Ventajas",
+      "title": "Pensado para no interrumpir tu música",
+      "intro": "La música no se corta aunque hagas mil cosas a la vez, y todo lo que haces se puede deshacer. Estas son las diferencias que más se notan al trabajar."
     },
     "faq": {
       "eyebrow": "Preguntas frecuentes",
-      "title": "Antes de descargarlo"
+      "title": "Dudas antes de descargar"
     },
     "download": {
       "eyebrow": "Descarga",
-      "title": "Empieza a producir hoy mismo",
-      "text": "Descarga la aplicación para macOS o compílala desde el código fuente. El proyecto está en desarrollo activo y cada función nueva llega al repositorio.",
-      "note": "HUECO: enlaza aquí la última release descargable (DMG/ZIP). Ahora mismo el botón apunta al repositorio.",
-      "ctaDownload": "Descargar para macOS",
-      "ctaSource": "Código fuente",
+      "title": "Empieza a crear tu música hoy",
+      "text": "Descarga EZMusicProduction para Mac y en unos minutos estarás grabando tu primera idea. Gratis, sin suscripciones y sin registros.",
+      "ctaDownload": "Descargar gratis para Mac",
+      "ctaSource": "Ver el código",
       "ctaBack": "Volver arriba"
     }
   },
   "features": {
     "libreria": {
-      "eyebrow": "Explorador de samples y loops",
-      "title": "Librería de Sonidos",
-      "description": "Un explorador con más de 21.000 sonidos libres —loops, samples sueltos, orquestal, percusión, sinte, voces y Foley— indexados y listos para arrastrar a la timeline. La vista previa es el rasgo distintivo: el loop se reproduce ajustado al tempo del proyecto y transportado a su tonalidad, y arranca cuadrado al beat del playhead.",
+      "eyebrow": "Sonidos",
+      "title": "Librería de sonidos",
+      "description": "Más de 21.000 sonidos gratis para tus canciones: loops, baterías, percusión, cuerdas, sinte, voces y efectos. Escucha cada uno al tempo de tu canción y arrástralo a tu proyecto cuando te guste. Así de fácil.",
       "bullets": [
-        "+21.000 sonidos con licencia y autoría visibles (CC, dominio público…)",
-        "Preview tempo-matched y transportado a la tonalidad del proyecto",
-        "Batería y percusión con samples sueltos, listos para construir tus propios patrones",
-        "Drag & drop directo a la timeline: crea pista o inserta clip donde sueltas",
-        "Filtros por categoría, tempo, tonalidad, instrumento y género"
+        "Más de 21.000 sonidos gratis, listos para usar",
+        "Escucha cada sonido al tempo de tu canción",
+        "Baterías y percusión con golpes sueltos para crear tus propios ritmos",
+        "Arrastra y suelta: el sonido se coloca donde quieras",
+        "Filtra por categoría, estilo, tempo, tonalidad o instrumento"
       ]
     },
     "ezinstruments": {
-      "eyebrow": "Instrumento · General MIDI",
-      "genre": "General MIDI",
+      "eyebrow": "Instrumento de fábrica",
+      "genre": "128 tipos de sonido",
       "title": "EZInstruments",
-      "description": "La colección de instrumentos General MIDI integrada en el programa: 128 programas melódicos más el kit de percusión en un único procesador, con sonido inmediato para esbozar cualquier idea. La reverberación y el chorus se dejan apagados a propósito: el espacio y el carácter los pone la cadena de FX de la pista, no el instrumento.",
+      "description": "Todos los sonidos de instrumento que puedas necesitar, listos desde el primer momento: piano, cuerdas, metales, maderas, órganos, guitarras y mucho más. Elige uno y ponte a tocar: es la forma más rápida de convertir una idea en música.",
       "bullets": [
-        "Catálogo GM completo: 128 programas melódicos + kit de percusión",
-        "Motor FluidSynth embebido (LGPL 2.1+) con glue propio",
-        "Sin reverb/chorus internos: el color es de la cadena de FX de la pista",
-        "Ideal para bocetar: elige, toca y sigue produciendo"
+        "128 sonidos de instrumento, del piano a la orquesta",
+        "Incluye kit de batería para programar tus ritmos",
+        "Suena al instante: nada que instalar ni configurar",
+        "Perfecto para probar ideas rápido"
       ]
     },
     "ezsynth": {
-      "eyebrow": "Instrumento · Sintetizador",
+      "eyebrow": "Instrumento de fábrica",
       "genre": "Sintetizador",
       "title": "EZSynth",
-      "description": "Sintetizador sustractivo moderno con el piano roll del propio clip incorporado. El motor dispone de tres osciladores con unísono, sub-oscilador y generador de ruido, un filtro ladder multimodo con su propia envolvente, dos LFOs, glide y respuesta a velocity. Un banco de presets cubre el camino rápido; LINES es el camino profundo.",
+      "description": "Un sintetizador moderno para crear tus propios sonidos, desde bajos profundos hasta melodías brillantes. Ajusta los controles a tu gusto o parte de los sonidos ya preparados. Y si quieres ir más allá, dibuja tus experimentos directamente sobre las notas y escúchalos al momento.",
       "bullets": [
-        "Tres osciladores + unísono + sub + ruido",
-        "Filtro ladder multimodo con envolvente dedicada",
-        "Dos LFOs, glide y sensibilidad a velocity",
-        "Banco de presets para arrancar sin fricción",
-        "LINES: zonas de distorsión de pitch dibujadas sobre el roll, con efecto polifónico real (cada nota del acorde se curva por su cuenta)"
+        "Crea tus propios sonidos desde cero",
+        "Sonidos ya preparados para empezar en segundos",
+        "Graves potentes, agudos brillantes y todo lo que hay en medio",
+        "Dibuja efectos sobre las notas y escúchalos al momento",
+        "Toca acordes completos: cada nota del acorde responde a su manera"
       ]
     },
     "ezdrums": {
-      "eyebrow": "Instrumento · Percusión",
-      "genre": "Percusión",
+      "eyebrow": "Instrumento de fábrica",
+      "genre": "Batería",
       "title": "EZDrums",
-      "description": "Máquina de percusión con kits sintetizados al estilo 808/909 —cero assets, cero descargas— y un banco de patrones por estilos. Todo se reproduce sincronizado al tempo y al compás del proyecto en bucle, y lo mejor: con la pista armada, el patrón se graba como MIDI real en un clip, como si lo hubiera tocado un baterista. Después lo editas en el piano roll de siempre.",
+      "description": "Una batería completa para dar ritmo a tus canciones. Elige un patrón, escúchalo en bucle con tu tempo y, si te gusta, grábalo como si lo hubiera tocado un batería. Después lo editas nota a nota como cualquier otra pista.",
       "bullets": [
-        "Kits sintetizados 808/909 sin samples externos",
-        "Banco de patrones por estilo, listos para usar",
-        "Bucle bloqueado al tempo y al compás del proyecto",
-        "Genera MIDI: graba el patrón en un clip real y editable"
+        "Ritmos listos para usar, en muchos estilos",
+        "Se ajusta solo al tempo de tu canción",
+        "Conviértelo en notas y edítalo a tu gusto",
+        "No necesita sonidos extra: suena desde el primer clic"
       ]
     },
     "ezorquestra": {
-      "eyebrow": "Instrumento · Orquesta",
+      "eyebrow": "Instrumento de fábrica",
       "genre": "Orquesta",
       "title": "EZOrquestra",
-      "description": "Nuestra implementación propia de sampler orquestal. Reproduce librerías de samples de licencia libre siguiendo el diseño de the Alpine Project: archivos WAV por nota con la nota, la articulación y la dinámica codificadas en el nombre. Programas JSON con nota raíz por sample, capas de velocity y grupos round-robin dan el realismo que se espera de una sección de cuerdas.",
+      "description": "Trae la orquesta a tus canciones. Cuerdas, metales y maderas con sonido real grabado y distintas formas de tocar cada instrumento, para que suene expresivo y natural, no como un teclado.",
       "bullets": [
-        "Cuerdas, metales y maderas con articulaciones y dinámicas",
-        "Formato compatible con the Alpine Project (WAV por nota)",
-        "Programas JSON con nota raíz, capas de velocity y round-robin",
-        "Detector de pitch con verificación de etiquetas para preparar librerías"
+        "Cuerdas, metales y maderas",
+        "Varias formas de tocar cada instrumento: notas largas, cortas y más",
+        "Sonido real grabado, con detalle y expresividad",
+        "Suena natural en acordes y melodías"
       ]
     },
     "pianoRoll": {
-      "eyebrow": "Editor · Lower zone",
+      "eyebrow": "Editor de notas",
       "title": "Piano Roll",
-      "description": "El editor de notas: un lienzo completo para escribir, mover y dar forma a tu música con todo el detalle. Aquí la pieza clave es la cuantización no destructiva: las posiciones originales nunca se pierden hasta que tú lo decides, así que puedes probar un preset distinto y volver atrás sin deshacer nada. Todo gesto es una acción y toda acción es un paso de undo.",
+      "description": "Escribe y corrige tu música con total libertad. Mueve notas, cambia acordes y ajusta el ritmo; si algo no cuadra, pruébalo sin miedo y vuelve atrás cuando quieras. Nada se pierde por el camino.",
       "bullets": [
-        "Cuantización no destructiva: presets de fábrica 1/4 … 1/32 con tresillos y puntillos",
-        "Modo Q / iQ: aplica completo o avanza por pasos con Iterative Strength",
-        "Swing (solo en rejillas straight), Catch Range, Max Move y Non-Grid Positions",
-        "Ghost display de la posición original y Freeze Quantize cuando quieres fijarla",
-        "Lanes de Velocity y CC (modwheel, volumen, expresión, sustain)",
-        "Auto-scroll vertical inteligente, preview al clicar teclas y edición numérica en la info line"
+        "Corrige el ritmo con un clic, sin perder el aire de lo que tocaste",
+        "Vista que te sigue mientras tocas y grabas",
+        "Ajusta la fuerza de cada nota para darle vida",
+        "Cambia acordes y melodías sin rehacerlo todo",
+        "Vuelve atrás cuando quieras: no se pierde nada"
       ]
     },
     "cubase": {
-      "eyebrow": "Importación · .cpr",
-      "title": "Apertura de proyectos de Cubase",
-      "description": "Abre tus proyectos de Cubase directamente desde el buscador de ficheros: el lector de .cpr está escrito en Dart puro y recrea el proyecto en el motor. Es solo lectura —nunca escribimos de vuelta al fichero original, guardar sigue siendo .ezmpp—, pero trae consigo todo lo necesario para seguir donde lo dejaste.",
+      "eyebrow": "Compatibilidad",
+      "title": "Abre tus proyectos de Cubase",
+      "description": "Si ya trabajas en Cubase, no empieces de cero: abre tus canciones aquí y lo encontrarás todo en su sitio, con las pistas, las notas y los audios tal y como los dejaste. Tus archivos originales no se tocan.",
       "bullets": [
-        "Estructura completa del proyecto: pistas, tempo y compás",
-        "Notas MIDI verificadas 1:1 contra los SMF exportados por Cubase",
-        "Eventos de audio con posición, recorte, ganancia y fichero fuente",
-        "Instrumentos y efectos restaurados con su estado",
-        "Solo lectura: tu .cpr original jamás se modifica"
+        "Tus pistas, tu tempo y tu estructura, tal cual",
+        "Tus notas y tus audios, en su sitio",
+        "Tus instrumentos y efectos, ya configurados",
+        "Tus proyectos originales no se modifican nunca"
       ]
     }
   },
   "architecture": {
     "items": [
       {
-        "step": "UI",
-        "title": "Flutter",
-        "text": "La piel, nunca el corazón del audio. Timeline, mixer, inspector y diálogos; consume streams del motor y jamás bloquea el hilo de audio."
+        "step": "Sonido",
+        "title": "La música no se corta",
+        "text": "El audio y la pantalla trabajan por separado, así que la reproducción sigue fluida aunque muevas ventanas, abras diálogos o cargues sonidos."
       },
       {
-        "step": "Puente",
-        "title": "FFI por snapshots",
-        "text": "Comandos, snapshots y streams entre la UI y el motor. Sin llamadas por bloque de audio."
+        "step": "Control",
+        "title": "Nada se pierde",
+        "text": "¿Te has equivocado? Deshaz. Cada cambio se puede revertir paso a paso, sin perder el trabajo que ya has hecho."
       },
       {
-        "step": "Core",
-        "title": "C++20/23 + JUCE",
-        "text": "Modelo de proyecto, mezcla, render offline y undo/redo viven en el motor. Las fuentes de audio se decodifican a memoria para no tocar el disco durante la reproducción."
+        "step": "Mac",
+        "title": "Hecho para tu Mac",
+        "text": "Funciona en Mac con chips Apple e Intel y aprovecha al máximo la potencia de tu equipo."
+      },
+      {
+        "step": "Futuro",
+        "title": "Gratis y abierto",
+        "text": "Es de código abierto: sin suscripciones ni sorpresas, y crece con las ideas de su comunidad."
       }
     ]
   },
   "faq": {
     "items": [
       {
-        "q": "¿En qué plataformas funciona?",
-        "a": "macOS 12 o superior, tanto en Apple Silicon como en Intel. Windows está previsto para una versión posterior."
+        "q": "¿Es gratis?",
+        "a": "Sí. EZMusicProduction es de código abierto, así que puedes descargarlo y usarlo sin pagar ni suscribirte."
       },
       {
-        "q": "¿Es gratis? ¿Open source?",
-        "a": "El proyecto es open source. El motor usa JUCE y FluidSynth (LGPL 2.1+) enlazada dinámicamente, y la licencia final del conjunto está en evaluación entre AGPLv3 y una licencia comercial."
+        "q": "¿En qué ordenadores funciona?",
+        "a": "En Mac con macOS 12 o superior, tanto con chips Apple como Intel."
       },
       {
-        "q": "¿Puedo usar plugins de terceros?",
-        "a": "Sí. La versión inicial aloja AU y VST3 en macOS; CLAP está previsto más adelante. Además, los instrumentos EZ vienen incluidos de serie."
+        "q": "¿Tengo que comprar instrumentos o sonidos?",
+        "a": "No. Incluye instrumentos y más de 21.000 sonidos gratis, y además puedes usar tus plugins favoritos."
       },
       {
-        "q": "¿Puedo guardar de vuelta en Cubase?",
-        "a": "No. La importación de .cpr es de solo lectura por diseño: abrimos tus proyectos, nunca los modificamos. El formato de guardado propio es .ezmpp."
+        "q": "¿Puedo abrir mis proyectos de Cubase?",
+        "a": "Sí. Ábrelos aquí y sigue donde lo dejaste. Tus archivos originales no se modifican."
       },
       {
-        "q": "¿Puedo aportar sonidos a la librería?",
-        "a": "Sí. La librería se indexa desde carpetas locales y muestra licencia y autoría de cada sonido, así que es fácil incorporar material libre."
+        "q": "¿Cómo puedo ayudar?",
+        "a": "Probándolo y contándonos qué mejorarías. Como es de código abierto, también puedes aportar sonidos o ideas."
       }
     ]
   },
   "footer": {
-    "description": "Producción musical completa, en una sola ventana. DAW open source para macOS, con instrumentos propios y librería de sonidos incluida.",
+    "description": "El programa para Mac que lo trae todo: instrumentos, más de 21.000 sonidos gratis y un editor de notas completo. Gratis y de código abierto.",
     "sections": "Secciones",
     "project": "Proyecto",
-    "repo": "Repositorio en GitHub",
-    "license": "Licencia: AGPLv3 / comercial (en evaluación)",
-    "engine": "Motor: JUCE + FluidSynth (LGPL 2.1+)",
+    "repo": "Ver el proyecto en GitHub",
+    "license": "Código abierto",
     "version": "Versión {{version}}",
-    "copyright": "© {{year}} EZMusicProduction · Nombre en clave «{{codename}}».",
-    "madeWith": "Hecho con React + Mantine"
+    "copyright": "© {{year}} EZMusicProduction"
   }
 }

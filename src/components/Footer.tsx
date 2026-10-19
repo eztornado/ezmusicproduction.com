@@ -1,6 +1,5 @@
-import { Anchor, Box, Container, Divider, Group, SimpleGrid, Stack, Text } from '@mantine/core';
+import { Anchor, Box, Container, Divider, SimpleGrid, Stack, Text } from '@mantine/core';
 import { useTranslation } from 'react-i18next';
-import { IconBrandGithub } from '@tabler/icons-react';
 import { nav, site } from '../data/site';
 
 export function Footer() {
@@ -52,7 +51,7 @@ export function Footer() {
               {t('footer.license')}
             </Text>
             <Text size="sm" c="dimmed">
-              {t('footer.engine')}
+              {t('site.platform')}
             </Text>
             <Text size="sm" c="dimmed">
               {t('footer.version', { version: t('site.version') })}
@@ -62,17 +61,9 @@ export function Footer() {
 
         <Divider my="xl" color="var(--ez-border)" />
 
-        <Group justify="space-between" gap="sm">
-          <Text size="xs" c="dimmed">
-            {t('footer.copyright', { year, codename: site.codename })}
-          </Text>
-          <Group gap={6}>
-            <IconBrandGithub size={16} color="var(--ez-accent)" />
-            <Text size="xs" c="dimmed">
-              {t('footer.madeWith')}
-            </Text>
-          </Group>
-        </Group>
+        <Text size="xs" c="dimmed">
+          {t('footer.copyright', { year })}
+        </Text>
       </Container>
     </Box>
   );

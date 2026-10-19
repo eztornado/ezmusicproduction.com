@@ -7,7 +7,6 @@ import { DEFAULT_LANGUAGE, SUPPORTED_LANGUAGES } from '../i18n';
 
 export const site = {
   name: 'EZMusicProduction',
-  codename: 'Cadence',
   repo: 'https://github.com/ivanpastorsimarro/EZMusicProduction',
   /** Enlace a la última release descargable. HUECO: apunta al DMG/ZIP real. */
   downloadUrl: 'https://github.com/ivanpastorsimarro/EZMusicProduction/releases/latest',

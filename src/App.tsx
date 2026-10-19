@@ -2,7 +2,6 @@ import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import {
   Accordion,
-  Alert,
   Box,
   Button,
   Card,
@@ -17,7 +16,6 @@ import {
 } from '@mantine/core';
 import {
   IconAdjustments,
-  IconAlertCircle,
   IconArrowUp,
   IconBrandAppleFilled,
   IconBrandGithub,
@@ -339,15 +337,6 @@ export default function App() {
                   <Text c="gray.3" lh={1.6}>
                     {t('sections.download.text')}
                   </Text>
-                  <Alert
-                    variant="light"
-                    color="gray"
-                    icon={<IconAlertCircle size={16} />}
-                    radius="md"
-                    mt="xs"
-                  >
-                    <Text size="xs">{t('sections.download.note')}</Text>
-                  </Alert>
                 </Stack>
 
                 <Stack gap="sm" w={{ base: '100%', sm: 320 }}>

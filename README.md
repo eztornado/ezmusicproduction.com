@@ -21,7 +21,7 @@ Tema **rojo sobre negro**.
   - EZOrquestra (sampler de orquesta, formato Alpine Project)
   - Piano Roll (cuantización no destructiva)
   - Apertura de proyectos de Cubase (`.cpr`, solo lectura)
-- **Arquitectura**, **FAQ** y bloque de **descarga**.
+- **Ventajas**, **FAQ** y bloque de **descarga**.
 
 > Nota de posicionamiento: el producto **no** se presenta como derivado de otros
 > DAW. Cubase solo se menciona al hablar de la **importación** de sus proyectos.
