@@ -7,9 +7,14 @@ import { DEFAULT_LANGUAGE, SUPPORTED_LANGUAGES } from '../i18n';
 
 export const site = {
   name: 'EZMusicProduction',
-  repo: 'https://github.com/ivanpastorsimarro/EZMusicProduction',
-  /** Enlace a la última release descargable. HUECO: apunta al DMG/ZIP real. */
-  downloadUrl: 'https://github.com/ivanpastorsimarro/EZMusicProduction/releases/latest',
+  repo: 'https://github.com/eztornado/EZMusicProduction',
+  /**
+   * Descarga directa de la versión publicada (macOS universal).
+   * Al publicar una release nueva, actualiza este enlace: `releases/latest`
+   * no sirve mientras la versión esté marcada como prerelease.
+   */
+  downloadUrl:
+    'https://github.com/eztornado/EZMusicProduction/releases/download/v26.10.20.1/EZMusicProduction-26.10.20.1-macOS-universal.zip',
 };
 
 /** Navegación: `key` es la clave de traducción (`nav.*`) y `href` el ancla. */
