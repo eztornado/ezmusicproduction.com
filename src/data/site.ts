@@ -9,12 +9,14 @@ export const site = {
   name: 'EZMusicProduction',
   repo: 'https://github.com/eztornado/EZMusicProduction',
   /**
-   * Descarga directa de la versión publicada (macOS universal).
-   * Al publicar una release nueva, actualiza este enlace: `releases/latest`
-   * no sirve mientras la versión esté marcada como prerelease.
+   * Descarga: página de releases del DAW (macOS, Linux y Windows).
+   * `releases/latest` no resuelve mientras la versión esté marcada como
+   * prerelease, así que enlazamos al listado completo.
    */
-  downloadUrl:
-    'https://github.com/eztornado/EZMusicProduction/releases/download/v26.10.20.1/EZMusicProduction-26.10.20.1-macOS-universal.zip',
+  downloadUrl: 'https://github.com/eztornado/EZMusicProduction/releases',
+  /** App de control remoto Android (EZMusicProductionRemote). */
+  remoteRepo: 'https://github.com/eztornado/EZMusicProductionRemote',
+  remoteDownloadUrl: 'https://github.com/eztornado/EZMusicProductionRemote/releases',
 };
 
 /** Navegación: `key` es la clave de traducción (`nav.*`) y `href` el ancla. */

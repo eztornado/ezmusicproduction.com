@@ -9,7 +9,7 @@
     "tagline": "Everything ready to create, from the very first minute.",
     "license": "Open source",
     "platform": "For macOS · Linux · Windows",
-    "version": "26.10.20.1"
+    "version": "26.11.13.1"
   },
   "common": {
     "download": "Download",
@@ -91,7 +91,9 @@
     "remote": {
       "eyebrow": "Remote control",
       "title": "Control your studio from your phone",
-      "intro": "Turn your Android phone or tablet into a control surface: transport, timeline, mixer and automation, all in real time over your local network."
+      "intro": "Turn your Android phone or tablet into a control surface: transport, timeline, mixer and automation, all in real time over your local network.",
+      "ctaApk": "Download the Android app",
+      "ctaRepo": "See the app on GitHub"
     },
     "pianoRoll": {
       "eyebrow": "Note editor",

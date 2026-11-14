@@ -16,8 +16,9 @@ import {
 } from '@mantine/core';
 import {
   IconAdjustments,
+  IconArrowBarToUp,
   IconArrowUp,
-  IconBrandAppleFilled,
+  IconBrandAndroid,
   IconBrandGithub,
   IconCode,
   IconDeviceDesktop,
@@ -35,6 +36,7 @@ import { SectionHeading } from './components/SectionHeading';
 import { FeatureBlock } from './components/FeatureBlock';
 import { MediaSlot } from './components/MediaSlot';
 import {
+  EFFECT_KEYS,
   FEATURES,
   INSTRUMENT_KEYS,
   architectureImage,
@@ -43,6 +45,7 @@ import {
 } from './data/site';
 
 const instrumentIcons = [IconMusic, IconWaveSine, IconAdjustments, IconFileMusic];
+const effectIcons = [IconWaveSine, IconAdjustments, IconArrowBarToUp, IconMusic];
 const pillarIcons = [IconDeviceDesktop, IconAdjustments, IconHeart];
 
 type Pillar = { title: string; text: string };
@@ -130,6 +133,8 @@ export default function App() {
                 {t('common.jumpTo')}{' '}
                 {[
                   FEATURES.libreria,
+                  FEATURES.effects,
+                  FEATURES.ai,
                   FEATURES.ezinstruments,
                   FEATURES.ezsynth,
                   FEATURES.ezdrums,
@@ -194,6 +199,64 @@ export default function App() {
           </Container>
         </Box>
 
+        {/* -------------------------------------------------------- efectos --- */}
+        <Box component="section" py={{ base: 48, md: 72 }}>
+          <Container size="lg">
+            <SectionHeading
+              eyebrow={t('sections.effects.eyebrow')}
+              title={t('sections.effects.title')}
+              intro={t('sections.effects.intro')}
+            />
+            <FeatureBlock meta={FEATURES.effects} flip />
+
+            <SimpleGrid cols={{ base: 2, md: 4 }} spacing="md" mt={40}>
+              {EFFECT_KEYS.map((key, i) => {
+                const meta = FEATURES[key];
+                const Icon = effectIcons[i] ?? IconAdjustments;
+                return (
+                  <Card
+                    key={meta.id}
+                    component="a"
+                    href={`#${meta.id}`}
+                    className="ez-glow-card"
+                    padding="lg"
+                    radius="lg"
+                    withBorder
+                    bg="var(--ez-surface)"
+                    style={{ borderColor: 'var(--ez-border)', textDecoration: 'none' }}
+                  >
+                    <ThemeIcon size={38} radius="md" color="red" variant="light" mb="sm">
+                      <Icon size={20} />
+                    </ThemeIcon>
+                    <Text fw={700} c="gray.1">
+                      {t(`features.${meta.i18nKey}.title`)}
+                    </Text>
+                    <Text size="xs" c="dimmed" mt={4}>
+                      {t(`features.${meta.i18nKey}.genre`)}
+                    </Text>
+                  </Card>
+                );
+              })}
+            </SimpleGrid>
+
+            {EFFECT_KEYS.map((key, i) => (
+              <FeatureBlock key={key} meta={FEATURES[key]} flip={i % 2 === 1} />
+            ))}
+          </Container>
+        </Box>
+
+        {/* ------------------------------------------------------------- IA --- */}
+        <Box component="section" py={{ base: 48, md: 72 }}>
+          <Container size="lg">
+            <SectionHeading
+              eyebrow={t('sections.ai.eyebrow')}
+              title={t('sections.ai.title')}
+              intro={t('sections.ai.intro')}
+            />
+            <FeatureBlock meta={FEATURES.ai} />
+          </Container>
+        </Box>
+
         {/* ---------------------------------------------------- piano roll --- */}
         <Box component="section" py={{ base: 48, md: 72 }}>
           <Container size="lg">
@@ -215,6 +278,47 @@ export default function App() {
               intro={t('sections.cubase.intro')}
             />
             <FeatureBlock meta={FEATURES.cubase} flip />
+          </Container>
+        </Box>
+
+        {/* ------------------------------------------------------ remoto --- */}
+        <Box component="section" py={{ base: 48, md: 72 }}>
+          <Container size="lg">
+            <SectionHeading
+              eyebrow={t('sections.remote.eyebrow')}
+              title={t('sections.remote.title')}
+              intro={t('sections.remote.intro')}
+            />
+            <FeatureBlock meta={FEATURES.remote} flip />
+
+            <Group justify="center" gap="md" mt="md" wrap="wrap">
+              <Button
+                size="md"
+                color="red"
+                c="#0b0b0b"
+                radius="md"
+                leftSection={<IconBrandAndroid size={18} />}
+                rightSection={<IconDownload size={18} />}
+                component="a"
+                href={site.remoteDownloadUrl}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {t('sections.remote.ctaApk')}
+              </Button>
+              <Button
+                size="md"
+                variant="default"
+                radius="md"
+                leftSection={<IconBrandGithub size={18} />}
+                component="a"
+                href={site.remoteRepo}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {t('sections.remote.ctaRepo')}
+              </Button>
+            </Group>
           </Container>
         </Box>
 
@@ -345,7 +449,7 @@ export default function App() {
                     color="red"
                     c="#0b0b0b"
                     radius="md"
-                    leftSection={<IconBrandAppleFilled size={18} />}
+                    leftSection={<IconDeviceDesktop size={18} />}
                     rightSection={<IconDownload size={18} />}
                     component="a"
                     href={site.downloadUrl}
