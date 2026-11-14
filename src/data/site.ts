@@ -112,6 +112,34 @@ export const FEATURES: Record<string, FeatureMeta> = {
     ratio: '16 / 10',
     hint: 'App Android controlando el transporte, timeline y mezclador desde el móvil',
   },
+  ezq4: {
+    id: 'ezq4',
+    i18nKey: 'ezq4',
+    image: '/images/features/ezq4.png',
+    ratio: '16 / 10',
+    hint: 'Panel del EQ EZQ4 con las 8 bandas editables (tipo, frecuencia, ganancia y Q)',
+  },
+  ezcompresor: {
+    id: 'ezcompresor',
+    i18nKey: 'ezcompresor',
+    image: '/images/features/ezcompresor.png',
+    ratio: '16 / 10',
+    hint: 'Panel del compresor con knee, attack, release y mezcla paralela',
+  },
+  ezlimitador: {
+    id: 'ezlimitador',
+    i18nKey: 'ezlimitador',
+    image: '/images/features/ezlimitador.png',
+    ratio: '16 / 10',
+    hint: 'Panel del limitador brick-wall con look-ahead y techo de seguridad',
+  },
+  ezarpegiador: {
+    id: 'ezarpegiador',
+    i18nKey: 'ezarpegiador',
+    image: '/images/features/ezarpegiador.png',
+    ratio: '16 / 10',
+    hint: 'Panel del arpegiador MIDI-FX con patrones y sincronía al transporte',
+  },
   pianoRoll: {
     id: 'piano-roll',
     i18nKey: 'pianoRoll',
@@ -130,10 +158,20 @@ export const FEATURES: Record<string, FeatureMeta> = {
 };
 
 /** Orden de los instrumentos EZ en la rejilla de tarjetas. */
-export const INSTRUMENT_KEYS = ['ezinstruments', 'ezsynth', 'ezdrums', 'ezorquestra'] as const;
+export const INSTRUMENT_KEYS = [
+  'ezinstruments',
+  'ezsynth',
+  'ezdrums',
+  'ezorquestra',
+] as const satisfies readonly (keyof typeof FEATURES)[];
 
 /** Orden de los efectos EZ en la rejilla de tarjetas. */
-export const EFFECT_KEYS = ['ezq4', 'ezcompresor', 'ezlimitador', 'ezarpegiador'] as const;
+export const EFFECT_KEYS = [
+  'ezq4',
+  'ezcompresor',
+  'ezlimitador',
+  'ezarpegiador',
+] as const satisfies readonly (keyof typeof FEATURES)[];
 
 /** Hueco del diagrama de arquitectura. */
 export const architectureImage = {
