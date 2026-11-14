@@ -1,14 +1,14 @@
 {
   "meta": {
-    "title": "EZMusicProduction — Tu programa de música para Mac",
-    "description": "Crea, graba y mezcla tu música en un solo programa para Mac. Instrumentos incluidos, más de 21.000 sonidos gratis y un editor de notas completo. Descárgalo gratis.",
-    "ogTitle": "EZMusicProduction — Tu programa de música para Mac",
-    "ogDescription": "Instrumentos, más de 21.000 sonidos gratis y un editor de notas completo en un solo programa. Gratis y de código abierto."
+    "title": "EZMusicProduction — Tu programa de música multiplataforma",
+    "description": "Crea, graba y mezcla tu música en un solo programa para macOS, Linux y Windows. Instrumentos, efectos, IA, más de 21.000 sonidos gratis y un editor de notas completo. Descárgalo gratis.",
+    "ogTitle": "EZMusicProduction — Tu programa de música multiplataforma",
+    "ogDescription": "Instrumentos, efectos, herramientas IA, más de 21.000 sonidos gratis y un editor de notas completo en un solo programa. Gratis y de código abierto."
   },
   "site": {
     "tagline": "Todo listo para crear, desde el primer minuto.",
     "license": "Código abierto",
-    "platform": "Para Mac · Apple Silicon e Intel",
+    "platform": "Para macOS · Linux · Windows",
     "version": "26.10.20.1"
   },
   "common": {
@@ -26,6 +26,9 @@
     "whatIs": "Descubre",
     "features": "Funciones",
     "instruments": "Instrumentos",
+    "effects": "Efectos",
+    "ai": "IA",
+    "remote": "Control remoto",
     "pianoRoll": "Editor",
     "cubase": "Cubase",
     "architecture": "Ventajas",
@@ -33,13 +36,13 @@
   },
   "hero": {
     "title": "Toda tu música, <hl>en un solo programa</hl>.",
-    "subtitle": "<strong>EZMusicProduction</strong> reúne instrumentos, más de 21.000 sonidos gratis y un editor de notas completo en un solo programa para Mac. <em>{{tagline}}</em>",
+    "subtitle": "<strong>EZMusicProduction</strong> reúne instrumentos, efectos, herramientas IA, más de 21.000 sonidos gratis y un editor de notas completo en un solo programa para macOS, Linux y Windows. <em>{{tagline}}</em>",
     "ctaFeatures": "Descubre lo que hace",
     "ctaGithub": "Ver en GitHub",
     "stats": {
       "sounds": "sonidos y loops gratis",
       "instruments": "instrumentos incluidos",
-      "gm": "tipos de instrumento",
+      "platforms": "plataformas",
       "open": "código abierto"
     }
   },
@@ -54,8 +57,8 @@
         "text": "Más de 21.000 sonidos gratis listos para usar. Escúchalos al tempo de tu canción y arrástralos a tu proyecto con un clic."
       },
       {
-        "title": "Instrumentos de serie",
-        "text": "Piano, sinte, batería y orquesta incluidos y funcionando desde el primer minuto. Nada más que comprar para empezar a hacer música."
+        "title": "Instrumentos y efectos de serie",
+        "text": "Piano, sinte, batería y orquesta incluidos, más 4 efectos profesionales y herramientas IA. Nada más que comprar para empezar a hacer música."
       }
     ]
   },
@@ -74,6 +77,21 @@
       "eyebrow": "Instrumentos",
       "title": "Cuatro instrumentos listos para tocar",
       "intro": "Vienen incluidos y funcionan al instante. Elige uno y ponte a tocar: no hay nada que instalar ni configurar."
+    },
+    "effects": {
+      "eyebrow": "Efectos",
+      "title": "Cuatro efectos profesionales incluidos",
+      "intro": "Ecualizador, compresor, limitador y arpegiador listos para usar. Añádelos a cualquier pista o al bus master sin instalar nada extra."
+    },
+    "ai": {
+      "eyebrow": "Inteligencia artificial",
+      "title": "Herramientas IA para tu música",
+      "intro": "Asistente de mezcla automático, generación de arreglos y material melódico. Todo funciona en tu equipo, sin conexión a internet."
+    },
+    "remote": {
+      "eyebrow": "Control remoto",
+      "title": "Controla tu estudio desde el móvil",
+      "intro": "Convierte tu teléfono o tablet Android en un panel de control: transporte, timeline, mezclador y automatización, todo en tiempo real desde la red local."
     },
     "pianoRoll": {
       "eyebrow": "Editor de notas",
@@ -97,8 +115,8 @@
     "download": {
       "eyebrow": "Descarga",
       "title": "Empieza a crear tu música hoy",
-      "text": "Descarga EZMusicProduction para Mac y en unos minutos estarás grabando tu primera idea. Gratis, sin suscripciones y sin registros.",
-      "ctaDownload": "Descargar gratis para Mac",
+      "text": "Descarga EZMusicProduction para macOS, Linux o Windows y en unos minutos estarás grabando tu primera idea. Gratis, sin suscripciones y sin registros.",
+      "ctaDownload": "Descargar gratis",
       "ctaSource": "Ver el código",
       "ctaBack": "Volver arriba"
     }
@@ -165,6 +183,91 @@
         "Suena natural en acordes y melodías"
       ]
     },
+    "effects": {
+      "eyebrow": "Efectos incluidos",
+      "title": "Efectos profesionales",
+      "description": "Cuatro efectos listos para añadir a cualquier pista o al bus master. EQ paramétrico, compresor, limitador y arpegiador MIDI: todo lo esencial para dar forma a tu mezcla sin salir del programa.",
+      "bullets": [
+        "EZQ4: ecualizador paramétrico de 8 bandas",
+        "EZCompresor: compresor estéreo con rodilla suave",
+        "EZLimitador: limitador brick-wall para el bus master",
+        "EZArpegiador: MIDI-FX arpegiador sincronizado",
+        "Aloja plugins AU y VST3 además de los efectos incluidos"
+      ]
+    },
+    "ezq4": {
+      "eyebrow": "Efecto de fábrica",
+      "genre": "Ecualizador",
+      "title": "EZQ4",
+      "description": "Un ecualizador paramétrico de 8 bandas con flujo de trabajo profesional: activación, tipo, frecuencia, ganancia y Q por banda, cortes de 24 dB/oct y filtrado IIR de fase natural.",
+      "bullets": [
+        "8 bandas paramétricas ajustables",
+        "Cortes de 24 dB/octava",
+        "Filtrado IIR de fase natural basado en biquads RBJ",
+        "Flujo de trabajo estilo Pro-Q"
+      ]
+    },
+    "ezcompresor": {
+      "eyebrow": "Efecto de fábrica",
+      "genre": "Compresor",
+      "title": "EZCompresor",
+      "description": "Un procesador de dinámica estéreo con rodilla suave, ataque y liberación ajustables, y mezcla paralela para controlar la intensidad de la compresión.",
+      "bullets": [
+        "Compresión estéreo con rodilla suave",
+        "Ataque y liberación configurables",
+        "Mezcla paralela para controlar la intensidad",
+        "Ideal para pistas individuales y bus master"
+      ]
+    },
+    "ezlimitador": {
+      "eyebrow": "Efecto de fábrica",
+      "genre": "Limitador",
+      "title": "EZLimitador",
+      "description": "Un limitador brick-wall con look-ahead para el bus master, con detección de pico estéreo y techo de seguridad para evitar recortes.",
+      "bullets": [
+        "Limitador brick-wall con look-ahead",
+        "Detección de pico estéreo",
+        "Techo de seguridad configurable",
+        "Perfecto para el bus master final"
+      ]
+    },
+    "ezarpegiador": {
+      "eyebrow": "Efecto de fábrica",
+      "genre": "MIDI-FX",
+      "title": "EZArpegiador",
+      "description": "Un arpegiador MIDI que se coloca en el slot de inserto MIDI del instrumento, consumiendo notas y reemitiéndolas arpegiadas, sincronizado al transporte.",
+      "bullets": [
+        "Se inserta como MIDI-FX en el instrumento",
+        "Sincronizado al transporte y tempo",
+        "Transforma acordes en patrones arpegiados",
+        "Flexible para crear ritmos y melodías"
+      ]
+    },
+    "ai": {
+      "eyebrow": "Herramientas IA",
+      "title": "Inteligencia artificial",
+      "description": "Tres herramientas IA integradas que funcionan 100% en tu equipo, sin conexión a internet. Desde mezclar automáticamente hasta generar material musical nuevo, todo al alcance de un clic.",
+      "bullets": [
+        "Asistente de mezcla IA: auto-balanceo de niveles, pan, EQ y compresión",
+        "Arreglista de canciones IA: genera estructuras completas de canción",
+        "Generación musical IA: modelos nativos para crear material melódico",
+        "Todo funciona localmente: sin conexión a internet",
+        "Plugins AU y VST3 compatibles con automatización"
+      ]
+    },
+    "remote": {
+      "eyebrow": "Control remoto",
+      "title": "Control desde el móvil",
+      "description": "EZMusicProductionRemote convierte tu teléfono o tablet Android en un panel de control completo: transporte, timeline sincronizada, mezclador con faders, editor de FX y lanes de automatización, todo en tiempo real por la red local.",
+      "bullets": [
+        "Transporte completo: play, pause, stop, record, seek, tempo",
+        "Timeline sincronizada con clips editables",
+        "Mezclador con faders, pan, mute/solo en tiempo real",
+        "Editor de FX y parámetros de plugins",
+        "Lanes de automatización: volumen, pan, sustain",
+        "Conexión segura por WebSocket LAN con código de emparejamiento"
+      ]
+    },
     "pianoRoll": {
       "eyebrow": "Editor de notas",
       "title": "Piano Roll",
@@ -202,9 +305,9 @@
         "text": "¿Te has equivocado? Deshaz. Cada cambio se puede revertir paso a paso, sin perder el trabajo que ya has hecho."
       },
       {
-        "step": "Mac",
-        "title": "Hecho para tu Mac",
-        "text": "Funciona en Mac con chips Apple e Intel y aprovecha al máximo la potencia de tu equipo."
+        "step": "Multiplataforma",
+        "title": "En tu escritorio, donde sea",
+        "text": "Funciona en macOS, Linux y Windows. Aprovecha al máximo la potencia de tu equipo, sea cual sea tu sistema."
       },
       {
         "step": "Futuro",
@@ -221,11 +324,19 @@
       },
       {
         "q": "¿En qué ordenadores funciona?",
-        "a": "En Mac con macOS 12 o superior, tanto con chips Apple como Intel."
+        "a": "En macOS 12 o superior (Apple Silicon e Intel), Linux con GTK3 y Windows 10 o superior."
       },
       {
         "q": "¿Tengo que comprar instrumentos o sonidos?",
-        "a": "No. Incluye instrumentos y más de 21.000 sonidos gratis, y además puedes usar tus plugins favoritos."
+        "a": "No. Incluye 4 instrumentos, 4 efectos profesionales y más de 21.000 sonidos gratis. Además puedes usar tus plugins AU y VST3 favoritos."
+      },
+      {
+        "q": "¿Qué herramientas IA incluye?",
+        "a": "Un asistente de mezcla automática, un arreglista de canciones que genera estructuras completas y un generador musical con modelos nativos. Todo funciona en tu equipo, sin internet."
+      },
+      {
+        "q": "¿Puedo controlar el programa desde el móvil?",
+        "a": "Sí. La app EZMusicProductionRemote para Android convierte tu teléfono o tablet en un panel de control completo: transporte, timeline, mezclador y automatización."
       },
       {
         "q": "¿Puedo abrir mis proyectos de Cubase?",
@@ -238,7 +349,7 @@
     ]
   },
   "footer": {
-    "description": "El programa para Mac que lo trae todo: instrumentos, más de 21.000 sonidos gratis y un editor de notas completo. Gratis y de código abierto.",
+    "description": "El programa multiplataforma que lo trae todo: instrumentos, efectos, herramientas IA, más de 21.000 sonidos gratis y un editor de notas completo. Gratis y de código abierto.",
     "sections": "Secciones",
     "project": "Proyecto",
     "repo": "Ver el proyecto en GitHub",

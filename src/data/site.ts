@@ -22,16 +22,19 @@ export const nav = [
   { key: 'nav.whatIs', href: '#que-es' },
   { key: 'nav.features', href: '#funciones' },
   { key: 'nav.instruments', href: '#instrumentos' },
+  { key: 'nav.effects', href: '#efectos' },
+  { key: 'nav.ai', href: '#ia' },
+  { key: 'nav.remote', href: '#control-remoto' },
   { key: 'nav.pianoRoll', href: '#piano-roll' },
   { key: 'nav.cubase', href: '#cubase' },
   { key: 'nav.architecture', href: '#arquitectura' },
 ] as const;
 
-/** Los cuatro números del hero. El valor es fijo; la etiqueta se traduce. */
+/** Los números del hero. El valor es fijo; la etiqueta se traduce. */
 export const heroStats = [
   { value: '21.590', key: 'hero.stats.sounds' },
   { value: '4', key: 'hero.stats.instruments' },
-  { value: '128', key: 'hero.stats.gm' },
+  { value: '3', key: 'hero.stats.platforms' },
   { value: '100 %', key: 'hero.stats.open' },
 ] as const;
 
@@ -86,6 +89,27 @@ export const FEATURES: Record<string, FeatureMeta> = {
     ratio: '16 / 10',
     hint: 'Interfaz del sampler con familias de orquesta y selección de articulación',
   },
+  effects: {
+    id: 'efectos',
+    i18nKey: 'effects',
+    image: '/images/features/effects.png',
+    ratio: '16 / 10',
+    hint: 'Panel de efectos incluidos: EZQ4, EZCompresor, EZLimitador, EZArpegiador',
+  },
+  ai: {
+    id: 'ia',
+    i18nKey: 'ai',
+    image: '/images/features/ai.png',
+    ratio: '16 / 10',
+    hint: 'Herramientas IA: asistente de mezcla, arreglista de canciones, generación musical',
+  },
+  remote: {
+    id: 'control-remoto',
+    i18nKey: 'remote',
+    image: '/images/features/remote.png',
+    ratio: '16 / 10',
+    hint: 'App Android controlando el transporte, timeline y mezclador desde el móvil',
+  },
   pianoRoll: {
     id: 'piano-roll',
     i18nKey: 'pianoRoll',
@@ -105,6 +129,9 @@ export const FEATURES: Record<string, FeatureMeta> = {
 
 /** Orden de los instrumentos EZ en la rejilla de tarjetas. */
 export const INSTRUMENT_KEYS = ['ezinstruments', 'ezsynth', 'ezdrums', 'ezorquestra'] as const;
+
+/** Orden de los efectos EZ en la rejilla de tarjetas. */
+export const EFFECT_KEYS = ['ezq4', 'ezcompresor', 'ezlimitador', 'ezarpegiador'] as const;
 
 /** Hueco del diagrama de arquitectura. */
 export const architectureImage = {
