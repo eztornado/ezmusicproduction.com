@@ -81,7 +81,7 @@ export default function App() {
         <Hero />
 
         {/* ------------------------------------------------------- qué es --- */}
-        <Box id="que-es" component="section" py={{ base: 64, md: 96 }}>
+        <Box id="about" component="section" py={{ base: 64, md: 96 }}>
           <Container size="lg">
             <SectionHeading
               align="center"
@@ -120,7 +120,7 @@ export default function App() {
         </Box>
 
         {/* ------------------------------------------------------ funciones --- */}
-        <Box id="funciones" component="section" py={{ base: 48, md: 72 }}>
+        <Box id="features" component="section" py={{ base: 48, md: 72 }}>
           <Container size="lg">
             <SectionHeading
               eyebrow={t('sections.features.eyebrow')}
@@ -155,7 +155,7 @@ export default function App() {
         </Box>
 
         {/* --------------------------------------------- familia instrumentos --- */}
-        <Box id="instrumentos" component="section" py={{ base: 48, md: 72 }}>
+        <Box id="instruments" component="section" py={{ base: 48, md: 72 }}>
           <Container size="lg">
             <SectionHeading
               eyebrow={t('sections.instruments.eyebrow')}
@@ -323,7 +323,7 @@ export default function App() {
         </Box>
 
         {/* ------------------------------------------------------- arquitectura --- */}
-        <Box id="arquitectura" component="section" py={{ base: 64, md: 96 }}>
+        <Box id="architecture" component="section" py={{ base: 64, md: 96 }}>
           <Container size="lg">
             <SectionHeading
               eyebrow={t('sections.architecture.eyebrow')}
@@ -410,7 +410,7 @@ export default function App() {
         </Box>
 
         {/* ---------------------------------------------------------- descarga --- */}
-        <Box id="descarga" component="section" py={{ base: 64, md: 96 }}>
+        <Box id="download" component="section" py={{ base: 64, md: 96 }}>
           <Container size="lg">
             <Card
               radius="xl"

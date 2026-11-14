@@ -21,15 +21,15 @@ export const site = {
 
 /** Navegación: `key` es la clave de traducción (`nav.*`) y `href` el ancla. */
 export const nav = [
-  { key: 'nav.whatIs', href: '#que-es' },
-  { key: 'nav.features', href: '#funciones' },
-  { key: 'nav.instruments', href: '#instrumentos' },
-  { key: 'nav.effects', href: '#efectos' },
-  { key: 'nav.ai', href: '#ia' },
-  { key: 'nav.remote', href: '#control-remoto' },
+  { key: 'nav.whatIs', href: '#about' },
+  { key: 'nav.features', href: '#features' },
+  { key: 'nav.instruments', href: '#instruments' },
+  { key: 'nav.effects', href: '#effects' },
+  { key: 'nav.ai', href: '#ai' },
+  { key: 'nav.remote', href: '#remote' },
   { key: 'nav.pianoRoll', href: '#piano-roll' },
   { key: 'nav.cubase', href: '#cubase' },
-  { key: 'nav.architecture', href: '#arquitectura' },
+  { key: 'nav.architecture', href: '#architecture' },
 ] as const;
 
 /** Los números del hero. El valor es fijo; la etiqueta se traduce. */
@@ -56,7 +56,7 @@ export type FeatureMeta = {
 
 export const FEATURES: Record<string, FeatureMeta> = {
   libreria: {
-    id: 'libreria',
+    id: 'library',
     i18nKey: 'libreria',
     image: '/images/features/libreria.png',
     ratio: '16 / 10',
@@ -92,21 +92,21 @@ export const FEATURES: Record<string, FeatureMeta> = {
     hint: 'Interfaz del sampler con familias de orquesta y selección de articulación',
   },
   effects: {
-    id: 'efectos',
+    id: 'effects',
     i18nKey: 'effects',
     image: '/images/features/effects.png',
     ratio: '16 / 10',
     hint: 'Panel de efectos incluidos: EZQ4, EZCompresor, EZLimitador, EZArpegiador',
   },
   ai: {
-    id: 'ia',
+    id: 'ai',
     i18nKey: 'ai',
     image: '/images/features/ai.png',
     ratio: '16 / 10',
     hint: 'Herramientas IA: asistente de mezcla, arreglista de canciones, generación musical',
   },
   remote: {
-    id: 'control-remoto',
+    id: 'remote',
     i18nKey: 'remote',
     image: '/images/features/remote.png',
     ratio: '16 / 10',

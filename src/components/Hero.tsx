@@ -88,7 +88,7 @@ export function Hero() {
               radius="md"
               rightSection={<IconArrowRight size={18} />}
               component="a"
-              href="#funciones"
+              href="#features"
             >
               {t('hero.ctaFeatures')}
             </Button>
