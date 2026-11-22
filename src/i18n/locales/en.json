@@ -30,7 +30,6 @@
     "ai": "AI",
     "remote": "Remote",
     "pianoRoll": "Editor",
-    "cubase": "Cubase",
     "architecture": "Benefits",
     "download": "Download"
   },
@@ -99,11 +98,6 @@
       "eyebrow": "Note editor",
       "title": "Write your music note by note",
       "intro": "A comfortable, precise editor to compose melodies, fix chords and correct whatever doesn't quite sound right. Try changes without fear: you can always go back."
-    },
-    "cubase": {
-      "eyebrow": "Compatibility",
-      "title": "Already working in Cubase? Bring your projects",
-      "intro": "Open your Cubase songs and carry on here with everything in place. Your original files are left untouched: you open them, listen to them and save them in the app's own format."
     },
     "architecture": {
       "eyebrow": "Benefits",
@@ -280,17 +274,6 @@
         "Set the strength of each note to bring it to life",
         "Change chords and melodies without starting over",
         "Go back whenever you like: nothing is lost"
-      ]
-    },
-    "cubase": {
-      "eyebrow": "Compatibility",
-      "title": "Open your Cubase projects",
-      "description": "If you already work in Cubase, don't start from scratch: open your songs here and find everything in place, with your tracks, notes and audio exactly as you left them. Your original files stay untouched.",
-      "bullets": [
-        "Your tracks, your tempo and your structure, as they were",
-        "Your notes and your audio, right where they belong",
-        "Your instruments and effects, already set up",
-        "Your original projects are never modified"
       ]
     }
   },

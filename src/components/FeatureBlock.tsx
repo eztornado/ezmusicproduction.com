@@ -72,6 +72,7 @@ export function FeatureBlock({ meta, flip = false }: Props) {
               alt={`${t(`${base}.title`)} — EZMusicProduction`}
               hint={meta.hint}
               ratio={meta.ratio}
+              className={meta.portrait ? 'ez-slot--portrait' : undefined}
             />
           </Card>
         </Grid.Col>

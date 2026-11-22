@@ -207,6 +207,12 @@ body {
   object-fit: cover;
 }
 
+/* Captura vertical (móvil): hueco 3/4 acotado y centrado dentro de la tarjeta. */
+.ez-slot--portrait {
+  margin-inline: auto;
+  max-width: 380px;
+}
+
 .ez-slot__placeholder {
   position: absolute;
   inset: 0;

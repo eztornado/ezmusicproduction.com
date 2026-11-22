@@ -140,7 +140,6 @@ export default function App() {
                   FEATURES.ezdrums,
                   FEATURES.ezorquestra,
                   FEATURES.pianoRoll,
-                  FEATURES.cubase,
                 ].map((meta, i, arr) => (
                   <span key={meta.id}>
                     <a href={`#${meta.id}`}>{t(`features.${meta.i18nKey}.title`)}</a>
@@ -266,18 +265,6 @@ export default function App() {
               intro={t('sections.pianoRoll.intro')}
             />
             <FeatureBlock meta={FEATURES.pianoRoll} />
-          </Container>
-        </Box>
-
-        {/* ------------------------------------------------------ cubase --- */}
-        <Box component="section" py={{ base: 48, md: 72 }}>
-          <Container size="lg">
-            <SectionHeading
-              eyebrow={t('sections.cubase.eyebrow')}
-              title={t('sections.cubase.title')}
-              intro={t('sections.cubase.intro')}
-            />
-            <FeatureBlock meta={FEATURES.cubase} flip />
           </Container>
         </Box>
 

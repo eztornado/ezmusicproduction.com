@@ -30,7 +30,6 @@
     "ai": "IA",
     "remote": "Control remoto",
     "pianoRoll": "Editor",
-    "cubase": "Cubase",
     "architecture": "Ventajas",
     "download": "Descargar"
   },
@@ -99,11 +98,6 @@
       "eyebrow": "Editor de notas",
       "title": "Escribe tu música nota a nota",
       "intro": "Un editor cómodo y preciso para componer melodías, arreglar acordes y corregir lo que no acaba de sonar. Prueba cambios sin miedo: siempre puedes volver atrás."
-    },
-    "cubase": {
-      "eyebrow": "Compatibilidad",
-      "title": "¿Ya trabajas en Cubase? Trae tus proyectos",
-      "intro": "Abre tus canciones de Cubase y sigue aquí con todo en su sitio. Tus archivos originales no se tocan: los abres, los escuchas y los guardas en el formato del programa."
     },
     "architecture": {
       "eyebrow": "Ventajas",
@@ -280,17 +274,6 @@
         "Ajusta la fuerza de cada nota para darle vida",
         "Cambia acordes y melodías sin rehacerlo todo",
         "Vuelve atrás cuando quieras: no se pierde nada"
-      ]
-    },
-    "cubase": {
-      "eyebrow": "Compatibilidad",
-      "title": "Abre tus proyectos de Cubase",
-      "description": "Si ya trabajas en Cubase, no empieces de cero: abre tus canciones aquí y lo encontrarás todo en su sitio, con las pistas, las notas y los audios tal y como los dejaste. Tus archivos originales no se tocan.",
-      "bullets": [
-        "Tus pistas, tu tempo y tu estructura, tal cual",
-        "Tus notas y tus audios, en su sitio",
-        "Tus instrumentos y efectos, ya configurados",
-        "Tus proyectos originales no se modifican nunca"
       ]
     }
   },

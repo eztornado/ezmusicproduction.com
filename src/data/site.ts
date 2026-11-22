@@ -28,7 +28,6 @@ export const nav = [
   { key: 'nav.ai', href: '#ai' },
   { key: 'nav.remote', href: '#remote' },
   { key: 'nav.pianoRoll', href: '#piano-roll' },
-  { key: 'nav.cubase', href: '#cubase' },
   { key: 'nav.architecture', href: '#architecture' },
 ] as const;
 
@@ -51,6 +50,8 @@ export type FeatureMeta = {
   ratio: string;
   /** Texto de ayuda del hueco: qué imagen hay que colocar (para el autor). */
   hint: string;
+  /** Captura vertical (móvil): hueco 3/4 acotado y centrado en la tarjeta. */
+  portrait?: boolean;
   highlighted?: boolean;
 };
 
@@ -109,8 +110,9 @@ export const FEATURES: Record<string, FeatureMeta> = {
     id: 'remote',
     i18nKey: 'remote',
     image: '/images/features/remote.png',
-    ratio: '16 / 10',
+    ratio: '3 / 4',
     hint: 'App Android controlando el transporte, timeline y mezclador desde el móvil',
+    portrait: true,
   },
   ezq4: {
     id: 'ezq4',
@@ -147,13 +149,6 @@ export const FEATURES: Record<string, FeatureMeta> = {
     ratio: '16 / 10',
     hint: 'Editor de notas con el panel de cuantización y la lane de velocity',
     highlighted: true,
-  },
-  cubase: {
-    id: 'cubase',
-    i18nKey: 'cubase',
-    image: '/images/features/cubase-import.png',
-    ratio: '16 / 10',
-    hint: 'Diálogo de importación y proyecto de Cubase recreado en la timeline',
   },
 };
 
