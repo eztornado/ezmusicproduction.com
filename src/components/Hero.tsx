@@ -37,8 +37,9 @@ export function Hero() {
       <div className="ez-hero__scrim" aria-hidden />
 
       <Container size="lg" className="ez-hero__content">
-        <Stack gap="xl" maw={820} py={120}>
-          <Group gap="xs">
+        <div className="ez-hero__grid">
+          <Stack gap="xl" maw={600} py={{ base: 72, md: 120 }}>
+            <Group gap="xs">
             <Badge color="red" variant="light" size="lg" radius="sm">
               {t('site.license')}
             </Badge>
@@ -118,7 +119,20 @@ export function Hero() {
               </Box>
             ))}
           </Group>
-        </Stack>
+          </Stack>
+
+          {/* La app funcionando con un proyecto abierto: la imagen principal. */}
+          <figure className="ez-hero__shot" aria-hidden={false}>
+            <img
+              src="/images/features/arquitectura.png"
+              alt={t('hero.imageAlt')}
+              width={1280}
+              height={711}
+              loading="eager"
+              decoding="async"
+            />
+          </figure>
+        </div>
       </Container>
     </header>
   );

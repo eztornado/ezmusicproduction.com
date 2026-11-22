@@ -35,6 +35,7 @@
   },
   "hero": {
     "title": "Toda tu música, <hl>en un solo programa</hl>.",
+    "imageAlt": "EZMusicProduction en funcionamiento con un proyecto abierto",
     "subtitle": "<strong>EZMusicProduction</strong> reúne instrumentos, efectos, herramientas IA, más de 21.000 sonidos gratis y un editor de notas completo en un solo programa para macOS, Linux y Windows. <em>{{tagline}}</em>",
     "ctaFeatures": "Descubre lo que hace",
     "ctaGithub": "Ver en GitHub",

@@ -35,6 +35,7 @@
   },
   "hero": {
     "title": "音楽制作のすべてを、<hl>ひとつのアプリで</hl>。",
+    "imageAlt": "プロジェクトを開いて動作しているEZMusicProductionの画面",
     "subtitle": "<strong>EZMusicProduction</strong>は、楽器・エフェクト・AIツール・21,000以上のフリー音源・本格的なノートエディターを、macOS・Linux・Windows用のひとつのアプリにまとめました。<em>{{tagline}}</em>",
     "ctaFeatures": "できることを見る",
     "ctaGithub": "GitHubで見る",

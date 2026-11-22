@@ -35,6 +35,7 @@
   },
   "hero": {
     "title": "Your whole music studio, <hl>in one app</hl>.",
+    "imageAlt": "EZMusicProduction running with a project open",
     "subtitle": "<strong>EZMusicProduction</strong> brings instruments, effects, AI tools, more than 21,000 free sounds and a complete note editor together in one app for macOS, Linux and Windows. <em>{{tagline}}</em>",
     "ctaFeatures": "See what it can do",
     "ctaGithub": "View on GitHub",

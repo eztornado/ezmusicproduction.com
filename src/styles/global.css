@@ -127,6 +127,42 @@ body {
   width: 100%;
 }
 
+/* Texto a la izquierda, captura de la app a la derecha (apilado en móvil). */
+.ez-hero__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 560px);
+  gap: 24px 56px;
+  align-items: center;
+}
+
+.ez-hero__shot {
+  margin: 0;
+  border: 1px solid var(--ez-border);
+  border-radius: 18px;
+  overflow: hidden;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.045), rgba(255, 255, 255, 0.012)),
+    var(--ez-surface);
+  box-shadow: 0 32px 80px rgba(0, 0, 0, 0.55);
+}
+
+.ez-hero__shot img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 62em) {
+  .ez-hero__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ez-hero__shot {
+    max-width: 640px;
+    margin-inline: auto;
+  }
+}
+
 .ez-equalizer {
   display: flex;
   align-items: flex-end;
